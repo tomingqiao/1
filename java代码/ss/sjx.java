@@ -1,4 +1,3 @@
-package myproject;
 
 public class sjx {
 	double  a,b,c;

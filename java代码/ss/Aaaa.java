@@ -1,4 +1,4 @@
-package myproject;
+
 
 public class Aaaa {
 

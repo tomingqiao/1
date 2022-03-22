@@ -1,4 +1,4 @@
-package myproject;
+
 
 public class Cs {
 int c=5;

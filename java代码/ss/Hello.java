@@ -1,4 +1,3 @@
-package myproject;
 
 public class Hello {
 	static String name = "我要学会你。";

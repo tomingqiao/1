@@ -1,4 +1,4 @@
-package myproject;
+
 import java.util.*;
 public class A1001 {
 	public static void main(String args[]) {
