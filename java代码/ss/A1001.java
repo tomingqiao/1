@@ -6,7 +6,7 @@ public class A1001 {
 		a=Math.random()*100;
 		a=(int)a;
 		Scanner s=new Scanner(System.in);
-		while(0==0){
+		while(true){
 			System.out.println("ÇëÊäÈëÄúµÄ²Â²â£º");
 			int m=s.nextInt();
 			if(m<a)
