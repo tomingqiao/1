@@ -1,15 +1,17 @@
+package ss;
 
 public class sjx {
-	double  a,b,c;
+	double a, b, c;
 	static double p;
+
 	public static void main(String[] args) {
-	System.out.print("周长："+p);
-		
+		System.out.print("周长：" + p);
+
 	}
-	double zc()
-	{
-		
-		p=a+b+c;
+
+	double zc() {
+
+		p = a + b + c;
 		return p;
 	}
 

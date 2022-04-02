@@ -1,9 +1,11 @@
+package ss;
 
 public class Hello {
 	static String name = "我要学会你。";
+
 	public static void main(String[] args) {
-		
-		System.out.print("javahh,"+ name);
+
+		System.out.print("javahh," + name);
 	}
 
 }
