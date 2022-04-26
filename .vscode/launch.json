@@ -4,7 +4,13 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch SSSSS",
+            "request": "launch",
+            "mainClass": "s.SSSSS",
+            "projectName": "1_86454d2e"
+        },
         {
             "type": "java",
             "name": "Launch Current File",

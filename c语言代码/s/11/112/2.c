@@ -35,5 +35,10 @@ int main(int argc, char const *argv[])
     FILE *f;
     f = fopen("D:\\vscproject\\1\\c语言代码\\s\\11\\实验2文件\\实验2文件\\第2题\\a.txt", "r");
     countFile(f);
+    if (fclose(f))
+    {
+        printf("不能关闭文件\n");
+        exit(0);
+    }
     return 0;
 }

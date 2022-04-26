@@ -32,5 +32,10 @@ int main(int argc, char const *argv[])
         printf("NO\n");
         printf("两个文件内容首次不同的行号和字符位置:%d,%d", n, m);
     }
+    if (fclose(f1) && fclose(f2))
+    {
+        printf("不能关闭文件\n");
+        exit(0);
+    }
     return 0;
 }
