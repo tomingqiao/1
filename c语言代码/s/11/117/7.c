@@ -11,15 +11,15 @@ void mergeFile(FILE *f1, FILE *f2, FILE *f3)
     int i = 0, j = 0, n;
     while (!feof(f1))
     {
-        fread(&s1[i], sizeof(s1[i]), 1, f1);
+        fscanf(f1, "%d %s %d", &s1[i].xh, s1[i].name, &s1[i].cj);
         i++;
     }
     while (!feof(f2))
     {
-        fread(&s2[i], sizeof(s2[i]), 1, f2);
+        fscanf(f2, "%d %s %d", &s2[j].xh, s2[j].name, &s2[j].cj);
         j++;
     }
-    n = i + j + 2;
+    n = i + j;
     j = i = 0;
     for (int m = 0; m < n; m++)
     {
@@ -28,7 +28,7 @@ void mergeFile(FILE *f1, FILE *f2, FILE *f3)
             s3[m] = s1[i];
             i++;
         }
-        if (s1[i].cj >= s2[j].cj)
+        if (s1[i].cj > s2[j].cj)
         {
             s3[m] = s2[j];
             j++;
@@ -36,7 +36,7 @@ void mergeFile(FILE *f1, FILE *f2, FILE *f3)
     }
     for (int m = 0; m < n; m++)
     {
-        printf()
+        printf("%d %s %d\n", s3[m].xh, s3[m].name, s3[m].cj);
     }
 }
 int main(int argc, char const *argv[])
