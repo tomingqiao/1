@@ -1,7 +1,15 @@
 {
-    "java.project.sourcePaths": [
-        "java代码"
-    ],
-    "java.project.outputPath": "java classes"
-    
+  "java.project.sourcePaths": ["java代码"],
+  "java.project.outputPath": "java classes",
+  "files.associations": {
+    "random": "cpp",
+    "iostream": "cpp",
+    "*.tcc": "cpp",
+    "string_view": "cpp",
+    "algorithm": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "numeric": "cpp",
+    "ostream": "cpp"
+  }
 }
