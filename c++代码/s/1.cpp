@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
     cout << "type:"
-         << min(1, 2)
-         << "\n";
+         << min(1, 2) << min(2, 4) << "\n";
     cout << "Hello World"; // Êä³ö Hello World
     return 0;
 }
