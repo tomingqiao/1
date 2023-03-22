@@ -1,23 +1,23 @@
 #define MAX 30        // 线路途径站点最大数目
 #define MAXVEX 100    // 顶点或站点最大数目
-#define MAXLine 30    // 线路最大数目
+#define MAXLINE 30    // 线路最大数目
 typedef int EdgeType; // 边上的权值类型
 
 typedef struct Line // 线路信息
 {
-    int LineNumber;        // 线路编号
-    char name[20];         // 线路名
+    int lineNumber;        // 线路编号
+    char lineName[20];     // 线路名
     int fare;              // 票价
-    int FirstTime[2];      // 首班时间
-    int LastTime[2];       // 末班时间
-    Station Stations[MAX]; // 所有途径站点
+    int firstTime[2];      // 首班时间
+    int lastTime[2];       // 末班时间
+    Station stations[MAX]; // 所有途径站点
 } Line;
 
 typedef struct Station // 站点信息
 {
-    char StationName[20]; // 站点名称
-    int StationNumber;    // 站点编号
-    int InLineNumber[10]; // 站点所在线路编号
+    char stationName[20]; // 站点名称
+    int stationNumber;    // 站点编号
+    int inLineNumber[10]; // 站点所在线路编号
 } Station;
 
 typedef struct EdgeNode // 边表结点
@@ -42,5 +42,5 @@ typedef struct // 邻接表的数据结构
 typedef struct LineList // 线路表
 {
     int numLine;            // 图中当前线路数
-    Line lineList[MAXLine]; // 线路数组
+    Line lineList[MAXLINE]; // 线路数组
 } LineList;
