@@ -1,5 +1,5 @@
 {
-  "java.project.sourcePaths": ["java代码"],
+  "java.project.sourcePaths": ["java代码", "java编程"],
   "java.project.outputPath": "java classes",
   "files.associations": {
     "random": "cpp",
