@@ -11,5 +11,6 @@
     "limits": "cpp",
     "numeric": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "Codegeex.Comment.LanguagePreference": "zh-CN"
 }
