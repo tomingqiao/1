@@ -1,91 +1,98 @@
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch SSSSS",
-            "request": "launch",
-            "mainClass": "s.SSSSS",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ssy",
-            "request": "launch",
-            "mainClass": "s.Ssy",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Sy",
-            "request": "launch",
-            "mainClass": "s.Sy",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch A1001",
-            "request": "launch",
-            "mainClass": "ss.A1001",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch A1002",
-            "request": "launch",
-            "mainClass": "ss.A1002",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Aaaa",
-            "request": "launch",
-            "mainClass": "ss.Aaaa",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Cs",
-            "request": "launch",
-            "mainClass": "ss.Cs",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Hello",
-            "request": "launch",
-            "mainClass": "ss.Hello",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Sy(1)",
-            "request": "launch",
-            "mainClass": "ss.Sy",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Syy",
-            "request": "launch",
-            "mainClass": "ss.Syy",
-            "projectName": "1_86454d2e"
-        },
-        {
-            "type": "java",
-            "name": "Launch sjx",
-            "request": "launch",
-            "mainClass": "ss.sjx",
-            "projectName": "1_86454d2e"
-        }
-    ]
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch file",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch SSSSS",
+      "request": "launch",
+      "mainClass": "s.SSSSS",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ssy",
+      "request": "launch",
+      "mainClass": "s.Ssy",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sy",
+      "request": "launch",
+      "mainClass": "s.Sy",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch A1001",
+      "request": "launch",
+      "mainClass": "ss.A1001",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch A1002",
+      "request": "launch",
+      "mainClass": "ss.A1002",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Aaaa",
+      "request": "launch",
+      "mainClass": "ss.Aaaa",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Cs",
+      "request": "launch",
+      "mainClass": "ss.Cs",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hello",
+      "request": "launch",
+      "mainClass": "ss.Hello",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Sy(1)",
+      "request": "launch",
+      "mainClass": "ss.Sy",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Syy",
+      "request": "launch",
+      "mainClass": "ss.Syy",
+      "projectName": "1_86454d2e"
+    },
+    {
+      "type": "java",
+      "name": "Launch sjx",
+      "request": "launch",
+      "mainClass": "ss.sjx",
+      "projectName": "1_86454d2e"
+    }
+  ]
 }
